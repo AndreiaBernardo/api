@@ -19,7 +19,7 @@ export function Home() {
     return (
         <section className="films-container">
 
-            <h2>Diversão garantida é aqui 🎬 Com filmes que vão além da sua imaginação...</h2>
+            <h2>Diversão garantida é aqui 🎬 Confira filmes que vão além da sua imaginação...</h2>
 
             <div className="films-grid">
             {

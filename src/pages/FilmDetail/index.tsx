@@ -19,11 +19,14 @@ export const FilmDetail = () => {
 
   return (
     <>
-      <h2>Detalhes do filme</h2>
+    <div className=" items-center justify-center text-center w-full p-14   bg-white">  
+      <h2 className="shadow-lg shadow-[#110135] rounded-2xl text-3xl font-bold p-4 h-30 text-center justify-center items-center flex">Detalhes do filme</h2>
+      </div>
+    
       
-      <div className="film-detail">
-          <img src={film.image} alt={film.title} />
-          <h3>{film.title}</h3>
+      <div className="film-detail  flex flex-col  items-center justify-center p-5 text-2xl text-center gap-4">
+          <img className=" h-auto mb-4  rounded-2xl shadow-lg shadow-[#110135]  p-10" src={film.image} alt={film.title} />
+          <h3 className="font-bold text-3xl p-6">{film.title}</h3>
           <p><strong>Descrição:</strong> {film.description}</p>
           <p><strong>Diretor:</strong> {film.director}</p>
           <p><strong>Produtor:</strong> {film.producer}</p>
