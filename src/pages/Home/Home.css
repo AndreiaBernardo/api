@@ -3,7 +3,7 @@
    
  }
 
-.header{
+.main-header{
     background-color: #110135;
     padding: 3rem;
     display: flex;
@@ -13,7 +13,7 @@
     margin: 1rem 4rem;
 }
 
-.header ul {
+.main-header ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -22,13 +22,13 @@
     gap: 10rem;
 }
 
-.header li {
+.main-header li {
     margin-left: 0;
     font-weight: 600;
     
 }
 
-.header a {
+.main-header a {
     text-decoration: none;
     color: rgb(241, 240, 239);  
    font-size: 30px;
