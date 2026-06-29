@@ -13,7 +13,7 @@ export function Home() {
     }
 
     if (error) {
-        return <p>Erro ao carregar os filmes: {error instanceof Error ? error.message : "Erro desconhecido"}</p>;
+        return <p>Erro ao carregar os filmes: {error instanceof Error ? error.message : "Erro ao carregar os filmes"}</p>;
     }
 
     return (

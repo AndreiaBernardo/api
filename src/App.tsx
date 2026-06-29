@@ -3,7 +3,7 @@ import { Router } from "./routers";
 
 
 
-function App() {
+const App = ()=> {
     return (
         <BrowserRouter>
             <Router />

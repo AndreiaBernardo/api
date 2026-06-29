@@ -21,7 +21,7 @@ const fetchFilmById = async (id: string | undefined) => {
 export function useFilms() {
     return useQuery<Film[]>({
         queryKey: ["films"],
-        queryFn: () => fetchFilms(),
+        queryFn:  fetchFilms,
     });
 };
 
